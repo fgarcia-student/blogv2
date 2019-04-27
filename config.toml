@@ -1,4 +1,4 @@
-baseURL = "https://franciscogarcia.me"
+baseURL = "https://franciscogarcia.me/"
 languageCode = "en-us"
 title = "Francisco Garcia"
 theme = "hyde"
