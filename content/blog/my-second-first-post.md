@@ -4,6 +4,7 @@ date: 2019-04-26T20:33:03-04:00
 draft: false
 ---
 
+![A beautiful landscape](/img/01_hero.jpg)
 ## Oh, hey. I'm doing this again.
 
 So, as you may notice, my blog got a revamp. I think my previous design was more of a POC and fun experiment than for practicality. So, I moved to hugo. They let me blog in Markdown which is awesome :sunglasses:
