@@ -1,7 +1,7 @@
 ---
 title: "Promises Pt 1"
 date: 2019-04-26T23:16:00-04:00
-draft: true
+draft: false
 ---
 
 ## Promises have their own kind of hell. And it's almost as crazy as callback hell.

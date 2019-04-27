@@ -1,7 +1,7 @@
 ---
 title: "Promises Pt 2"
 date: 2019-04-26T23:30:48-04:00
-draft: true
+draft: false
 ---
 
 > <h1 style="color: #aaa;">We have overcome</h1>

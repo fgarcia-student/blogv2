@@ -1,7 +1,7 @@
 ---
 title: 'My Second First Post'
 date: 2019-04-26T20:33:03-04:00
-draft: true
+draft: false
 ---
 
 ## Oh, hey. I'm doing this again.
