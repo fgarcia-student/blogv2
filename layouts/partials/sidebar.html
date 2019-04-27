@@ -1,0 +1,30 @@
+<aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="{{ .Site.BaseURL }}">
+        <h1 style="margin-bottom: 0px;">{{ .Site.Title }}</h1>
+      </a>
+      <ul style="list-style: none; padding-left: 0px; margin-top: 0px; margin-bottom: 2rem;">
+        <li>Husband<span style="font-size: 1.5rem;"> 🤵🏽</span></li>
+        <li>Engineer<span style="font-size: 1.5rem;">‍ 💻</span></li>
+        <li>Aspiring Designer<span style="font-size: 1.5rem;"> 📐</span></li>
+      </ul>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+        {{ range .Site.Menus.main -}}
+        <li>
+          <a href="{{.URL}}"> {{ .Name }} </a>
+        </li>
+        {{- end }}
+      </ul>
+    </nav>
+
+    <p>
+      {{ with.Site.Params.copyright }}{{.}}{{ else }}&copy;
+      {{ now.Format "2006"}}. All rights reserved. {{ end }}
+    </p>
+  </div>
+</aside>

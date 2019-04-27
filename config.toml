@@ -1,0 +1,24 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Francisco Garcia"
+theme = "hyde"
+DisqusShortname = "franciscoblog"
+
+[params]
+  author = "Author"
+  title = "Title"
+  highlightjs = true
+  highlightjsstyle = "github"
+  themeColor = "theme-base-07"
+
+[[menu.main]]
+    name = "Blog"
+    identifier = "blog"
+    weight = 100
+    url = "/blog/"
+
+[[menu.main]]
+    name = "Portfolio"
+    identifier = "portfolio"
+    weight = 200
+    url = "/portfolio/"
