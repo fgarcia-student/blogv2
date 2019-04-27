@@ -33,18 +33,7 @@ So with that being said we can move on to the manager for this entity. the manag
 
 > The method, if it requires async work, must return a Promise. Business logic can be placed within the promise and when a result is recieved, it can be passed into the resolve method exposed by the Promise.
 
-So this basically is saying everything past the controller has to return a promise. If not, it can't have any async method calls otherwise they will not work as expected. So within our promise, we call a function getAllPhotos() from the repository.
-
-```javascript
-const getAllPhotos = (req: Request, res: Response) => {
-  photoManager
-    .getAllPhotos()
-    .then((views) => res.status(200).send(views))
-    .catch((err) => res.status(500).send({ error: true, message: err }));
-};
-```
-
-This returns a promise to some entities. I know im jumping around but here are our entities.
+So this basically is saying everything past the controller has to return a promise. If not, it can't have any async method calls otherwise they will not work as expected. So within our promise, we call a function getAllPhotos() from the repository. This returns a promise to some entities. I know im jumping around but here are our entities.
 
 ```javascript
 class PhotoEntity {

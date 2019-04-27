@@ -102,11 +102,9 @@ const getRelatedPhotoData = (entities: PhotoEntity[]) => {
 };
 ```
 
-```entities``` is passed in as the result of the ```photoRepository.getAllPhotos()``` call. This contacts the DB and returns an array of Photo entities. What we also do is we call a method from the PhotoTag repository that returns a list of PhotoTags for a particular Photo ID. We are grouping them as a tuple and Promisifying the list of tuples. This list of tuples will be fed into the next function, which will perform some operation and return a Promise of that transformed data. This continues until we ```resolve``` with our data, which signals to the caller that the Promise has finished executing and returned some result.
+The entities argument above is passed in as the result of the ```photoRepository.getAllPhotos()``` call. This contacts the DB and returns an array of Photo entities. What we also do is we call a method from the PhotoTag repository that returns a list of PhotoTags for a particular Photo ID. We are grouping them as a tuple and Promisifying the list of tuples. This list of tuples will be fed into the next function, which will perform some operation and return a Promise of that transformed data. This continues until we ```resolve``` with our data, which signals to the caller that the Promise has finished executing and returned some result.
 
-___
 > Woah...
-___
 
 This let me write cleaner, more modular code. And it had the added bonus of making me feel like a badass 😎
 
