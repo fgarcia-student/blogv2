@@ -15,9 +15,7 @@ I am going to use this opportunity to traverse the full development stack.
 Below is the list of technologies I will be using:
 
 >
-### Database - PostgreSQL
-> <a href="#">Coming Soon!</a>
-### ORM - EntityFramework
+### Database/ORM - PostgreSQL/EntityFramework
 > <a href="#">Coming Soon!</a>
 ### Backend - C# .NET Core
 > <a href="#">Coming Soon!</a>
