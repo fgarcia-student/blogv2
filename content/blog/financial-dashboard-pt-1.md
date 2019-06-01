@@ -1,7 +1,7 @@
 ---
 title: "Financial Dashboard Pt 1"
 date: 2019-05-19T12:12:09-04:00
-draft: false
+draft: true
 ---
 
 It's been awhile since my last post, but I wanted to write about my most recent project that I am working on. 
@@ -15,8 +15,8 @@ I am going to use this opportunity to traverse the full development stack.
 Below is the list of technologies I will be using:
 
 >
-### Database/ORM - PostgreSQL/EntityFramework
-> <a href="#">Coming Soon!</a>
+### Database/ORM - SQLite/EntityFramework
+> <a href={{<ref "financial-dashboard-pt-2.md">}}>Setting the stage</a>
 ### Backend - C# .NET Core
 > <a href="#">Coming Soon!</a>
 ### UI Design - Adobe XD
