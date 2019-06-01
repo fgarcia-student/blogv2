@@ -101,7 +101,7 @@ This naming convention allows EntityFramework to automatically detect these rela
 
 One last thing. We add the tag `[JsonIgnore]` on the ClassRoom references in both the Student and Teacher classes to prevent a circular reference when retrieving an entity.
 
-Phew! Ok! Final thing we will do to help Entity Framework setup is define our Database Context, which we will call DbContext.
+Phew! Ok! Final thing we will do to help Entity Framework setup is define our Database Context.
 
 Let's make another file called `ApplicationContext.cs`
 
