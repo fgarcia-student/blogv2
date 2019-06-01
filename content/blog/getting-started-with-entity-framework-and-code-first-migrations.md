@@ -11,7 +11,7 @@ In trying to learn as much about the C# environment as I can, I decided to write
 Entity Framework is an ORM or Object Relational Mapping tool that comes with many features to help developers write less domain specific data access code. This framework also has the ability to generate entire SQL schemas based on traditional Object Oriented classes. This helps developers in many ways, such as:
 
 - Abstracting SQL code away from the developer
-- Conforming the codebase to be entirely C# instead of C# + SQL / NoSQL
+- Conforming the codebase to be entirely C# instead of C# + SQL
 - Simplifying maintainability
 
 Lets start with a simple example. We will be building a simple .NET Core application that communicates with a SQLite database using Entity Framework.
